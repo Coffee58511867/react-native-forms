@@ -14,7 +14,6 @@ import CustomOutlineButtom from "../shared/outlineButton";
 export default function SignIn2({ navigation }) {
   const handleClick = () => {
     try {
-      Alert.alert("Confirm Delete", "Are you sure you want to delete");
       navigation.push("Create Account");
     } catch (error) {
       console.log(error);
@@ -23,7 +22,7 @@ export default function SignIn2({ navigation }) {
   const handleLogin = () => {
     try {
       Alert.alert("Confirm Delete", "Are you sure you want to delete");
-      navigation.push('Dashboard');
+      // navigation.push('Dashboard');
     } catch (error) {
       console.log(error);
     }

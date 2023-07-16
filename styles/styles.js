@@ -92,21 +92,7 @@ export const styles = StyleSheet.create({
       borderRadius: 6,
 
     },
-    textAccount : 
-    {
-      fontSize: 16,
-      color: "white",
-      marginTop: 10,
-    }, 
-
-
-    card2:
-    {
-      width: '30%',
-      height: '80',
-      borderWidth: 2,
-      backgroundColor: 'white',
-    },
+  
 
    // Signin with Imgae Background
 
@@ -119,21 +105,4 @@ export const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
     },
-
-
-    // Dashboard
-
-    dashboardSubtitle : 
-    {
-      color: 'white',
-      fontSize: 17,
-      padding: 10,
-    },
-    dashboardTitle: 
-    {
-      color: 'white',
-      fontSize: 23,
-      textAlign: 'center',
-      padding: 10,
-    }
   });
