@@ -1,6 +1,6 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import SignIn2 from "./authentication/Signin2";
+import Login from "./authentication/Login";
 import SignInUser from "./authentication/Register";
 import ResetPassword from "./authentication/ForgotPassword";
 
@@ -27,7 +27,7 @@ export default function App() {
           options={{
             headerShown: false,
           }}
-          component={SignIn2}
+          component={Login}
         />
         <Stack.Screen name="Create Account" component={SignInUser} />
         <Stack.Screen name="Reset Password" component={ResetPassword} />

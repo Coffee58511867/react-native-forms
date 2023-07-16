@@ -40,13 +40,6 @@ export default function SignIn2({ navigation }) {
     uri: "https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg",
   };
 
-  const image2 = {
-    uri: "https://as1.ftcdn.net/v2/jpg/03/55/60/36/1000_F_355603615_RIj4qlSqmD47AOiWLbBU1qg58WN4raS9.jpg",
-  };
-
-  const image3 = {
-     uri : "https://t4.ftcdn.net/jpg/03/57/34/39/240_F_357343965_u58BFcRrziBVMqgt6liwPHJKcIjHsPnc.jpg",
-  };
 
   return (
     <View style={styles.container3}>
